@@ -1,0 +1,126 @@
+html{
+    padding:0px;
+	margin:0px;
+}
+body{
+    margin:0px;
+    padding:0px;
+    font-family: verdana,helvetica,'Lucida Sans Unicode','Trebuchet MS','Verdana','Arial','sans serif';
+    font-size:14px;
+    line-height:1.2em;
+    color:#133;
+	background-color:#eee;
+}
+
+a{
+    color:#3C6BFF;
+    transition:color 0.2s ease-out;  
+	-webkit-transition:color  0.2s ease-out;  	
+	-moz-transition:color   0.2s ease-out;  
+    -o-transition:color  0.2s ease-out;
+}
+a:hover{
+    color:red;
+    text-decoration:underline;
+
+}
+a:visited{
+    color:#36F;
+}
+
+p{
+    font-family: verdana,helvetica,'Lucida Sans Unicode','Trebuchet MS','Arial','sans serif';
+    font-size:13px;
+    line-height:1.1em;
+    margin:0.3em 0em 0.14em 0px;
+}
+
+h1,h2,h3,h4,h5,h6,label{
+	margin-top:0.4em;
+	margin-bottom:0.2em;
+	padding:10px 10px 15px 10px;
+	text-shadow:0px 0px 3px #678;-moz-text-shadow:0px 0px 3px #678;-webkit-text-shadow:0px 0px 3px #678;-khtml-text-shadow:0px 0px 3px #678;
+	font-family:arial,'Lucida Grande','trebuchet ms','times new roman',times,serif;
+	letter-spacing: 1px;
+}
+
+label{
+	padding:0px;
+}
+
+#wrapper{
+    margin:0px auto;
+}
+
+#top{
+    border-top:1px solid white;    
+	width:960px;
+	margin:0px auto;
+}
+
+#harga{
+	float:left;
+	width:719px;
+	border-right:1px solid black;
+    height:140px;    
+}
+
+#total_harga{
+	font-size:48px;
+	padding-top:60px;
+	margin:0px;
+	float:left;
+	width:380px;
+	height:65px;
+	border-right:1px solid white;
+}
+.hasil_pembayaran{
+	width:310px;
+	float:right;
+	margin-top:20px;
+}
+.hasil_pembayaran_label{
+	width:120px;
+	display:inline-block;
+	font-size:18px;
+}
+.uang_pembayaran{
+	padding:4px 4px;
+	width:150px;
+	font-size:18px;
+	font-weight:bold;
+}
+
+#toko{
+	float:left;
+	width:240px;
+	text-align:center;
+}
+
+#content{
+    min-height:450px;
+	margin:0px auto;
+    width:960px;
+    padding:0px;
+	border:1px solid black;
+    background:#FFF url('images/content-bg.jpg') repeat-x;
+}
+
+
+
+#footer{
+    margin:0px auto;
+    width:960px;
+    min-height:80px;
+	border:1px solid black;
+    text-align:center;
+    /*box-shadow-top:0px -5px 10px #111;-moz-box-shadow:0px 0px 20px #345;-webkit-box-shadow:0px 0px 20px #345;-khtml-box-shadow:0px 0px 20px #345;-o-box-shadow:0px 0px 20px #345;*/
+
+}
+
+
+.clear{
+clear:both;
+}
+
+                             
